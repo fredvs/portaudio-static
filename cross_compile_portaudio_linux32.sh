@@ -3,7 +3,7 @@ set -e
 
 # Define Output Folders
 BASE_DIR="$(pwd)"
-OUTPUT_DIR="$BASE_DIR/uos_static_libs_linux32"
+OUTPUT_DIR="$BASE_DIR/static_lib_linux32"
 mkdir -p "$OUTPUT_DIR"
 
 echo "=========================================================="

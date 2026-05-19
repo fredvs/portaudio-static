@@ -5,7 +5,7 @@ set -e
 # Setup absolute output location
 
 BASE_DIR="$(pwd)"
-OUTPUT_DIR="$BASE_DIR/uos_static_libs_unix"
+OUTPUT_DIR="$BASE_DIR/uos_static_libs_unix64"
 mkdir -p "$OUTPUT_DIR"
 
 echo "=== Starting Native Unix Static Library Builder ==="
